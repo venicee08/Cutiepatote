@@ -1,0 +1,471 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 20%;
+  color: #E8BF9F;
+  margin: 50px auto;
+}
+
+/*Title section*/
+#title {
+  background-color: #E8BF9F;
+  padding: 3% 15% 5%
+}
+
+.brand-title {
+  font-family: 'Pacifico', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #436D51;
+}
+
+.brand-logo {
+  width: 8%;
+}
+
+.links {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+
+.nav-list {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0.8rem;
+}
+
+.title-quote {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #436D51;
+}
+
+.title-link {
+  text-decoration: none;
+  color: black;
+}
+
+.title-link:hover {
+  text-decoration: none;
+  color: #436D51;
+}
+
+.fa-icon {
+  margin-right: 8px;
+}
+
+.title-img {
+  width: 100%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 6rem;
+}
+
+.cutie {
+  display: block;
+  background-color: #436D51;
+  color: white;
+  padding: 5px 10px;
+  line-height: 2rem;
+  letter-spacing: 1rem;
+  position: absolute;
+  top: 0;
+  left: 4rem;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  text-align: left;
+  opacity: 30%;
+  min-width: 100%;
+}
+
+/*Features section*/
+#features {
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.fa-icon {
+  color: #436D51;
+  margin: 1rem;
+}
+
+.fa-icon:hover {
+  color: #E8BF9F;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-col {
+  padding: 5%;
+}
+
+/*Pricing section*/
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.price-heading, .checkout-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Pacifico', cursive;
+  color: #436D51;
+  margin-bottom: 3rem;
+}
+
+.size-text {
+  color: #436D51;
+}
+
+
+.btn-price:hover {
+  background-color: #E8BF9F;
+}
+
+.price-link {
+  text-decoration: none;
+  color: black;
+}
+
+.price-link:hover{
+  text-decoration: none;
+  color: #436D51;
+}
+
+/*Catalog Section*/
+#catalog {
+  background-color: #E8BF9F;
+  text-align: center;
+  color: white;
+  padding: 7% 14%;
+}
+
+.carousel-item {
+  padding-bottom: 5%;
+}
+
+.catalog-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Pacifico', cursive;
+  color: #436D51;
+}
+
+.carousel-indicators {
+  color: white;
+}
+
+/*Order form section*/
+#order-form {
+  background-color: white;
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.form-title {
+  font-weight: 900;
+  line-height: 1.5;
+  color: #E8BF9F;
+  font-size: 3.5rem;
+}
+
+.social-link, .design-link {
+  text-decoration: none;
+  color: white;
+}
+
+.social-link:hover, .design-link {
+  text-decoration: none;
+  color: #436D51;
+}
+
+.btn-order, .btn-title {
+  margin: 5% 3% 5% 0;
+  background-color: #E8BF9F;
+}
+
+/*Feedback section*/
+#feedback {
+  padding: 7% 14%;
+  text-align: center;
+  background-color: #E8BF9F;
+}
+
+.feedback-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Pacifico', cursive;
+  color: #436D51;
+  margin-bottom: 3rem;
+}
+
+.feedback-user {
+  margin: 2rem;
+  line-height: 3;
+}
+
+.feedback-name {
+  color: white;
+}
+
+.feedback-image {
+  border-radius: 50%;
+  width: 30%;
+}
+
+/*Footer section*/
+#footer {
+  padding: 7% 14%;
+  text-align: center;
+  background-color: #E8BF9F;
+}
+
+.footer-icon {
+  padding: 20px 10px;
+  color: #436D51;
+}
+
+/*Checkout page*/
+#checkout {
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.form-check {
+  text-align: left;
+}
+
+.form-check-label {
+  color: #436D51;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.place-basic-heading, .place-prem-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Pacifico', cursive;
+  color: #436D51;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.payment-method, .shipment-method{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#thankyou {
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.thankyou-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Pacifico', cursive;
+  color: #436D51;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.thankyou-message {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+@media (max-width: 1300px) {
+  .title-quote {
+    font-size: 2.5rem;
+  }
+
+  .title-img{
+    left:3rem;
+  }
+
+  .links {
+    font-size: 1rem;
+  }
+
+  .cutie{
+    left: 3rem;
+  }
+  .nav-item {
+    padding: 0.2rem;
+  }
+}
+
+@media (max-width: 1010px){
+  .title-img{
+    width: 100%;
+    left: 40px;
+  }
+
+  .cutie{
+    padding-right: 1px;
+    left: 40px;
+  }
+
+  .btn-order, .btn-title{
+    width: 40%;
+    margin-top: 0;
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .title-quote{
+    font-size: 2rem;
+  }
+
+  .brand-logo{
+    width: 20%;
+  }
+
+  .brand-title{
+    font-size: 2rem;
+  }
+
+  .title-img {
+    position: relative;
+    width: 70%;
+    left: 60px;
+    margin-top: 50px;
+    transform: rotate(0deg);
+  }
+
+  .cutie{
+    left: 3px;
+    transform: rotate(0deg);
+    line-height: 1;
+    font-size: 1rem;
+  }
+
+  .btn-order, .btn-title{
+    width: 100%;
+    margin-top: 0;
+    padding-top: 5px;
+  }
+
+  .feat-des-img{
+    width: 90%;
+    padding-bottom: 10px;
+  }
+
+  .catalog-text, .price-heading, .form-title, .feedback-heading{
+    font-size: 2rem;
+  }
+
+  .feedback-name, h5{
+    font-size: 1rem;
+  }
+
+  .carousel-item{
+    margin-bottom: 20px;
+  }
+
+  .price-text, .size-text{
+    font-size: 1rem;
+  }
+
+  .btn-price{
+    font-size: 1rem;
+  }
+
+  .card{
+    margin: 20px;
+  }
+
+  .place-basic-heading, .place-prem-heading{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .brand-title{
+    font-size: 1.2rem;
+  }
+
+  .title-quote{
+    font-size: 1.5rem;
+  }
+
+  .btn-title{
+    font-size: 1rem;
+    padding: 3px;
+  }
+
+  .cutie{
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .title-img{
+    left:40px;
+  }
+
+  .price-text, .size-text, .no-b, .no-z{
+    font-size: 1rem;
+  }
+
+  .btn-price{
+    font-size: 1rem;
+  }
+
+  .card{
+    width: 150%;
+    position: relative;
+    right: 50px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 321px) {
+  .card{
+    width: 150%;
+    position: relative;
+    right: 35px;
+    margin: 10px;
+  }
+}

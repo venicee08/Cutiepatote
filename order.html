@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cutiepatote</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Bootstrap file-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik&display=swap" rel="stylesheet">
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/52bc0e1ac4.js" crossorigin="anonymous"></script>
+  <!--CSS file-->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!--Title section-->
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <img class="brand-logo" src="images/brand-logo-white.png" alt="">
+      <a href="index.html" class="navbar-brand brand-title">Cutiepatote</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link links" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="index.html#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="index.html#catalog">Catalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="index.html#feedback">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="order.html">Order Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="row">
+      <div class="col-lg-6 column-one">
+        <div>
+          <h1 class="title-quote">Happy totes with cutiepatote!</h1>
+
+          <a href="index.html#catalog" target="_blank" class="btn btn-light btn-lg btn-order" role="button" aria-pressed="true">
+            <i class="fa-solid fa-cart-shopping fa-icon"></i>
+            Designs</a>
+
+          <a href="order.html" class="btn btn-light btn-lg btn-order" role="button" aria-pressed="true">
+            <i class="fa-solid fa-cart-shopping fa-icon"></i>
+            Order</a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div>
+          <img class="title-img" src="images/brand-logo-white.png" alt="brand-logo">
+          <h3 class="cutie">CUTIE</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Checkout section-->
+
+  <section id="checkout">
+    <h2 class="checkout-heading">Checkout</h2>
+
+    <form class="was-validated">
+      <div class="form-row">
+        <label for="inputName">Full Name</label>
+        <input type="name" class="form-control is-invalid" id="inputName" aria-describedby="inputName" required>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control is-invalid" id="inputEmail" aria-describedby="inputEmail" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputContact">Contact Number</label>
+          <input type="text" class="form-control is-invalid" id="inputContact" placeholder="09xxxxxxxxx" aria-describedby="inputContact" required>
+        </div>
+
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">House No., Street, Subdivision, Barangay</label>
+        <input type="text" class="form-control is-invalid" id="inputAddress" aria-describedby="inputAddress" required>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control is-invalid" id="inputCity" aria-describedby="inputCity" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputProvince">Province</label>
+          <input type="text" class="form-control is-invalid" id="inputProvince" aria-describedby="inputProvince" required>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip Code</label>
+          <input type="number" class="form-control is-invalid" id="inputZip" aria-describedby="inputZip" required>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="row">
+          <div class="payment-method col-md-6 is-invalid">
+            <select class="form-control" required>
+              <option value="">Payment Method</option>
+              <option>GCash</option>
+              <option>Cash-on-Delivery</option>
+              <option>Bank Transfer</option>
+            </select>
+          </div>
+
+          <div class="shipment-method col-md-6 is-invalid">
+            <select class="form-control" required>
+              <option value="">Shipment Method</option>
+              <option>J&T</option>
+              <option>Gogo Xpress</option>
+              <option>LBC</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  <form class="" action="index.html" method="post">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="inputCardName">Name on Card</label>
+          <input placeholder="leave blank if not applicable" type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="inputCardNum">Card Number</label>
+          <input placeholder="leave blank if not applicable" type="text" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="inputExpiration">Expiration</label>
+          <input placeholder="leave blank if not applicable" type="date" class="form-control" >
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="inputCVV">CVV</label>
+          <input placeholder="leave blank if not applicable" min="000" max="999" type="number" class="form-control">
+        </div>
+      </div>
+    </div>
+  </form>
+
+    <!--Place orders-->
+
+    <div class="place-basic-text">
+      <h2 class="place-basic-heading">Basic Collection</h2>
+    </div>
+    <!--1st product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Meow
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--2nd Product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+          <label class="form-check-label" for="defaultCheck2">
+            You're too close
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--3rd product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+          <label class="form-check-label" for="defaultCheck3">
+            Coffee Cup
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--4th product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+          <label class="form-check-label" for="defaultCheck4">
+            I'd rather take coffee than compliments just now
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--5th product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+          <label class="form-check-label" for="defaultCheck5">
+            Think of Happy Totes
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--6th product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+          <label class="form-check-label" for="defaultCheck6">
+            Let Your Heart Guide You
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+
+    <!--Premium Collection-->
+    <div class="place-prem-text">
+      <h2 class="place-prem-heading">Premium Collection</h2>
+    </div>
+    <!--1st product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+          <label class="form-check-label" for="defaultCheck7">
+            Ken-ken Bucket Hat
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--2nd Product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+          <label class="form-check-label" for="defaultCheck8">
+            Ken PUBG
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--3rd product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+          <label class="form-check-label" for="defaultCheck9">
+            STELLberry
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+    <!--4th product-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+          <label class="form-check-label" for="defaultCheck10">
+            WHAT?
+          </label>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <select class="custom-select">
+          <option selected>Size</option>
+          <option>10" x 12"</option>
+          <option>13" x 15"</option>
+          <option>15" x 17"</option>
+        </select>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <input min="0" type="number" class="form-control" placeholder="Qty">
+        </div>
+      </div>
+    </div>
+
+    <a target="_blank " href="thankyou.html" class="btn btn-light btn-lg btn-order social-link" role="button" aria-pressed="true">
+      <i class="fa-solid fa-cart-shopping fa-icon"></i>
+      Place Order</a>
+  </section>
+  <!-- Footer -->
+  <footer id="footer">
+    <a href="https://twitter.com/Cutiepatote_" target="_blank"><i class="footer-icon fa-brands fa-twitter"></i></a>
+    <a href="https://www.facebook.com/cutiepatotePH" target="_blank"><i class="footer-icon fa-brands fa-facebook"></i></a>
+    <a href="mailto:cutiepatoteph@outlook.com" target="_blank"><i class="footer-icon fa-solid fa-envelope"></i></a>
+    <p>© Copyright 2022 Cutiepatote</p>
+  </footer>
+</body>
+
+</html>
